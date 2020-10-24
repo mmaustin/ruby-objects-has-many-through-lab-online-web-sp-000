@@ -7,8 +7,8 @@ class Artist
     @@all << self
   end
 
-  def self.all 
-    @@all 
+  def self.all
+    @@all
   end
 
   def new_song(name, genre)
@@ -22,5 +22,5 @@ class Artist
   def genres
     songs.map {|song| song.genre}
   end
-  
+
 end
